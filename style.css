@@ -43,7 +43,7 @@ main {
 @font-face {
     font-family: 'Padauk';
     /* <-- ဒီ URL လမ်းကြောင်းကို သင့် repository ထဲက ဖိုင်လမ်းကြောင်းအမှန်အတိုင်း ပြင်ပေးပါ */
-    src: url('https://aungkobmg.github.io/myanmarunicodefonts/Padauk/Padauk.woff2') format('woff2');
+    src: url('https://aungkobmg.github.io/myanmarunicodefonts/Padauk/Padauk.woff') format('woff');
 }
 
 /* Font တွေကို HTML မှာ သုံးဖို့ Class တွေ သတ်မှတ်ခြင်း */
