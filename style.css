@@ -1,0 +1,63 @@
+/* General Body Styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+header, footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.font-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* --- Font ချိတ်ဆက်ခြင်း (အရေးကြီးဆုံးအပိုင်း) --- */
+
+/* မှတ်ချက်: url() ထဲက လမ်းကြောင်းဟာ သင့် repository ထဲမှာရှိတဲ့ 
+  font file ရဲ့ တည်နေရာအမှန်ဖြစ်ဖို့လိုပါတယ်။
+  ဥပမာ - သင့်ဖောင့်က 'Pyidaungsu/Pyidaungsu-Regular.woff2' ဆိုရင် အဲ့အတိုင်းပြင်ရေးပါ။
+*/
+
+@font-face {
+    font-family: 'Pyidaungsu';
+    /* <-- ဒီ URL လမ်းကြောင်းကို သင့် repository ထဲက ဖိုင်လမ်းကြောင်းအမှန်အတိုင်း ပြင်ပေးပါ */
+    src: url('https://aungkobmg.github.io/myanmarunicodefonts/Pyidaungsu/Pyidaungsu-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Padauk';
+    /* <-- ဒီ URL လမ်းကြောင်းကို သင့် repository ထဲက ဖိုင်လမ်းကြောင်းအမှန်အတိုင်း ပြင်ပေးပါ */
+    src: url('https://aungkobmg.github.io/myanmarunicodefonts/Padauk/Padauk.woff2') format('woff2');
+}
+
+/* Font တွေကို HTML မှာ သုံးဖို့ Class တွေ သတ်မှတ်ခြင်း */
+.font-pyidaungsu {
+    font-family: 'Pyidaungsu', sans-serif;
+}
+
+.font-padauk {
+    font-family: 'Padauk', sans-serif;
+}
+
+/* သင်ထပ်ထည့်မယ့် Font တွေအတွက် ဒီမှာဆက်ရေးသွားပါ */
+/*
+.font-anotherfont {
+    font-family: 'AnotherFont', sans-serif;
+}
+*/
